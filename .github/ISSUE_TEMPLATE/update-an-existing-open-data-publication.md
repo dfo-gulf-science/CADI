@@ -1,9 +1,10 @@
 ---
 name: Update an Existing Open Data Publication
 about: boilerplate for updating an existing record that is publish to open data
-title: 'OPEN DATE: [insert name here] (UPDATE)'
-labels: ''
+title: 'OPEN DATA: [insert name here] (UPDATE)'
+labels: 'open data'
 assignees: RobichaudA
+projects: CADI Board
 
 ---
 - [ ] have the data steward provide an updated dataset

@@ -2,8 +2,9 @@
 name: Create a New Open Data Publication
 about: boilerplate for creating a new open data publication
 title: 'OPEN DATA: [insert name here] (NEW)'
-labels: ''
+labels: 'open data'
 assignees: RobichaudA
+projects: CADI Board
 
 ---
 - [ ] identify data steward
