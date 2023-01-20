@@ -1,7 +1,7 @@
 ---
 name: Create a New Open Data Publication
 about: boilerplate for creating a new open data publication
-title: 'OPEN DATE: [insert name here] (NEW)'
+title: 'OPEN DATA: [insert name here] (NEW)'
 labels: ''
 assignees: RobichaudA
 
