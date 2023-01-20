@@ -1,9 +1,9 @@
 ---
-name: Open Data Publication (UPDATE)
+name: Update an Existing Open Data Publication
 about: boilerplate for updating an existing metadata record
-title: 'OPEN DATE: [insert name here][ (UPDATE)'
+title: 'OPEN DATE: [insert name here] (UPDATE)'
 labels: ''
-assignees: ''
+assignees: RobichaudA
 
 ---
 
