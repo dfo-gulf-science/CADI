@@ -19,5 +19,3 @@ projects: CADI Board
 - [ ] Develop Safe Work Procedure
 - [ ] Send documentation for review/approval (Annex F)
 - [ ] Employees sign-off on each tasks that applies to their job (Annex D)
-- [ ] 
-
