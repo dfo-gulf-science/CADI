@@ -34,7 +34,6 @@ projects: CADI Board
 - [ ] Team Leader presents to OHS Committee
 - [ ] Branch Director considers OHS Committee input where applicable
 - [ ] Branch Director approves
-- [ ] 
 
 **Employee Sign-off**
 - [ ] Employees sign-off on each tasks that applies to their job (Annex D)
