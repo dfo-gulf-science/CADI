@@ -20,7 +20,7 @@ projects: CADI Board
 - [ ] Provide date of review for each task in **Task Inventory Worksheet - Column G** (where applicable)
 - [ ] If training/education is identified as a control measure, an education/training schedule is required
 
-**Safe Work Procedure (SWP) Process**
+**Critical Task Hazard Analysis Worksheet / Safe Work Procedure (SWP) Process**
 - [ ] All task rated **6** or greater in the **Task Inventory Worksheet** are considered a critical task and require a **Critical Task Hazard Analysis Worksheet** and a **Safe Work Procedure**
 - [ ] Using the **Critical Task Hazard Analysis Worksheet - Column A** outline each step of the critical task
 - [ ] Identify the hazards for each step of the critical task in the **Critical Task Hazard Analysis Worksheet - Column B** 
