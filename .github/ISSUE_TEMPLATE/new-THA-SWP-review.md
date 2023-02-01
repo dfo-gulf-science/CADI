@@ -28,12 +28,26 @@ projects: CADI Board
 - [ ] Develop the **Safe Work Procedure** using the information developped in the **Critical Task Hazard Analysis Worksheet*
 
 **Review/Approvals**
-- [ ] Internal review within Science Branch
-- [ ] Regional OHS Advisor
-- [ ] Branch Director
-- [ ] Team Leader presents to OHS Committee
-- [ ] Branch Director considers OHS Committee input where applicable
-- [ ] Branch Director approves
+- [ ] Internal review completed by THA Team and 1-2 SMEs within the branch
+- [ ] Review by Regional OHS Advisor
+- [ ] Review by GFC OHS Committee
+- [ ] Branch Director considers OHS Committee input and provides explanation to committee if recommendations are not carried out
+- [ ] Branch Director approves both THAS/SWPs
+- [ ] Managers shall ensure all control measures are implemented or the work cannot be performed by the employees
+
+**Sharing of THAs/SWPs**
+- [ ] CADI shall post **approved THAs/SWPs** in an area accessible to all staff
+- [ ] CADI shall implement an internal process to ensure document control of the full THA/SWP regional process
+- [ ] CADI shall share a list of all THAs/SWPS with the Regional OHS Office
+
+**Sharing of Training Schedule**
+- [ ] CADI shall post the **Training schedule** in an area accessible to all staff
+
+**Sharing of Workplace Inspections and Preventative Maintenance Schedule**
+- [ ] CADI shall post the **Workplace Inspections and Preventative Maintenance Schedule** in an area accessible to all staff
 
 **Employee Sign-off**
-- [ ] Employees sign-off on each tasks that applies to their job (Annex D)
+- [ ] Employees sign-off on each tasks that applies to their job **Annex D**
+- [ ] CADI to track all employee sign-off sheets via internal process
+
+**THA/SWP evaluation is to be completed on an as needed basis or minimum every 3 years from the last review date**
