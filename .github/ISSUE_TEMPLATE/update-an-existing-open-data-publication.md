@@ -9,6 +9,7 @@ projects: CADI Board
 ---
 - [ ] have the data steward provide an updated dataset
 - [ ] have the data steward update the metadata record and re-certify
-- [ ] un-submit the record from open data and have CDOS update the data file (and WMS if needed)
-- [ ] update the metadata record on FGP
-- [ ] Re-publish the metadata on FGP/EDH
+- [ ] import xml in FGP as a new draft
+- [ ] send email to MSDI (Shane Servant) to flag that an update is required - he will create ticket with IT to update the data file (and WMS if needed)
+- [ ] once the data has been updated complete the level 1 review questionnaire and send to Shane Servant
+- [ ] Re-publish the metadata on FGP/EDH (Amelie now has publishing rights for this)
