@@ -12,7 +12,8 @@ projects: CADI Board
 - [ ] data steward to certify metadata records
 - [ ] internal CADI review of metadata
 - [ ] obtain dataset from data steward
-- [ ] creation of map / dataset to be used for WMS
+- [ ] creation of map / dataset to be used for WMS (data steward and/or CADI)
 - [ ] submit for level 1 review
+- [ ] releast criteria checklist
 - [ ] submit for publication
-- [ ] create a DMA review of metadata record (`compliant`)
+- [ ] complete review of metadata record for compliancy
