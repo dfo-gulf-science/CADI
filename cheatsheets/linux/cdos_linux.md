@@ -6,6 +6,15 @@ Contact Quentin or David. They will create a user for you.
 
 ### How do I log in?
 
+#### ThinLinc (Preferred):
+
+- from the DFO Software Center, look for and download `ThinLinc`
+![img_2.png](img_2.png)
+- Open the client and simply enter your credentials:
+![img_3.png](img_3.png)
+
+#### Windows Remote Desktop Connection Tool:
+
 - In windows, search for `Remote Desktop Connection`. Open the app.
 - Computer = `glf-science-5.ent.dfo-mpo.ca`
 - User name = `YOURUSERNAME` (e.g., fishmand)
@@ -41,8 +50,9 @@ To point your profile's R Studio to a different version of R, do the following:
 - Make sure the version you want to use is actually installed (see above)
 - Open up a terminal (`Ctrl` + `Alt` + `T`) and type the following: `nano ~/.profile`
 - Update the following line: `export RSTUDIO_WHICH_R=/opt/R/x.x.x/bin/R` where `x.x.x` is the version you want to be using
-- See note below for explanation, but you will have to physically log onto the computer (i.e., not via remote desktop connection tool) once for the changes to take place. 
+- Log out and log back in.
 
-**Note to the geeks**: There is a complication when accessing ubuntu desktop via windows remote connection. The .profile file is not sourced / re-sourced when a session is opened via the remote connection tool. Manual log in appears to be necessary to instantiate the `.profile` file.  
+
+**Note to the geeks**: There is a complication when accessing ubuntu desktop via windows remote connection. The .profile file is not sourced / re-sourced.  
 
 
