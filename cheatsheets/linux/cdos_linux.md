@@ -27,11 +27,38 @@ Contact Quentin or David. They will create a user for you.
 
 ![img.png](img.png)
 
+### Who else is currently logged into the linux box?
+
+Open up a terminal (`Ctrl` + `Alt` + `T`) and type the following: `w`
+![img_6.png](img_6.png)
+
+
 ### How do I find an application?
 - Click on the "Activities" button at the top left or press the "windows" key to open up the application search.
 - You can also click on the "grid" button
 ![img_1.png](img_1.png)
 
+
+### How can I copy files from my DFO computer to the linux computer
+
+##### 1) Public share
+
+- from your DFO computer open up a file explorer window and put in the following address: `\\glf-science-5\public`
+![img_4.png](img_4.png)
+
+- Move in any files you want to transfer over into this share
+- On the linux side, this folder can be found here `/public`. You can access it using the file explore as well
+![img_5.png](img_5.png)
+
+- It is a good idea to not leave stuff in this folder since it is a public folder and is accessible by essentially anyone on the DFO network
+
+##### 2) Access your linux home directory via windows
+ 
+- from your DFO computer open up a file explorer window and put in the following address: `\\glf-science-5\MY_USER_NAME`.
+- An authentication screen should pop up and enter your username (with a backslash in front) and password
+![img_7.png](img_7.png)
+
+**NOTE:** A system administrator will need to get you set up the first time in order to use this feature.
 
 ### Installing a Specific R Version (SUDO privileges required)
 from [here](https://docs.posit.co/resources/install-r/#specify-r-version)
