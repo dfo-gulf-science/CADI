@@ -15,6 +15,10 @@ Contact Quentin or David. They will create a user for you.
 
 ![img_3.png](img_3.png)
 
+- You can use the `F8` key to play around with the display settings, e.g. full screen mode
+
+
+
 #### Windows Remote Desktop Connection Tool (Alternate):
 
 - In windows, search for `Remote Desktop Connection`. Open the app.
