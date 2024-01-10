@@ -9,11 +9,13 @@ Contact Quentin or David. They will create a user for you.
 #### ThinLinc (Preferred):
 
 - from the DFO Software Center, look for and download `ThinLinc`
+
 ![img_2.png](img_2.png)
 - Open the client and simply enter your credentials:
+
 ![img_3.png](img_3.png)
 
-#### Windows Remote Desktop Connection Tool:
+#### Windows Remote Desktop Connection Tool (Alternate):
 
 - In windows, search for `Remote Desktop Connection`. Open the app.
 - Computer = `glf-science-5.ent.dfo-mpo.ca`
