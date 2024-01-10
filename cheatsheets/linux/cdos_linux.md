@@ -29,7 +29,7 @@ Contact Quentin or David. They will create a user for you.
 ![img_1.png](img_1.png)
 
 
-# Installing a Specific R Version (SUDO privileges required)
+### Installing a Specific R Version (SUDO privileges required)
 from [here](https://docs.posit.co/resources/install-r/#specify-r-version)
 
 ```bash
@@ -42,7 +42,7 @@ sudo ln -s /opt/R/${R_VERSION}/bin/Rscript /usr/local/bin/Rscript${R_VERSION}
 
 From a terminal, you can open up a console by typing `R${R_VERSION}`, (e.g. `R4.3.2`) followed by `enter`.
 
-# How to point R Studio to a different R Version
+### How to point R Studio to a different R Version
 
 In linux when r studio opens up, it will load the version of R that is pointed to by the environmental variable called `RSTUDIO_WHICH_R` or to the path as specified by `which R`.
 If both of these are empty, R studio will not load.
@@ -58,3 +58,8 @@ To point your profile's R Studio to a different version of R, do the following:
 **Note to the geeks**: There is a complication when accessing ubuntu desktop via windows remote connection. The .profile file is not sourced / re-sourced.  
 
 
+### ADMB
+
+- We installed ADMB 13.1 at the system level under the `opt` directory
+- There is a symlink to the admb executable which was placed in `/usr/local/bin` and therefore the `admb` command should be available from anywhere in the terminal. 
+- If in the future we need to install different versions of ADMB, we should reassign the symlink to contain the version, e.g. `admb13.1`
