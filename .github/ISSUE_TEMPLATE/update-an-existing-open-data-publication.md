@@ -12,12 +12,15 @@ Data Custodian (Science staff):
   - [ ] Provides updated dataset (CSV), data dictoinary, etc.,
   - [ ] Recertifies the record, and
   - [ ] Flags for publication.
+
 Data Steward (CADI):
+
 DMApps
 -   [ ] Verify that metadata is bilingual,
 -   [ ] Complete QA/QC on dataset, data dictionary and any other documentation provided (send back to Data Custodian as necessary)
 -   [ ] Validate the record, and
 -   [ ] Export XML. (select "this is only a dry run - this will keep the record on your radar until it's published)
+
 EDH
 -   [ ] Import XML to EHD and overwrite existing record or manually copy XML into record (advanced view),
 -   [ ] Update existing resources with new CSVs, etc.
