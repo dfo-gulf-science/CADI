@@ -1,0 +1,48 @@
+This is a list of GLF Open Data records that require annual updates. You can clone this list for the next year and add/remove lines as needed.
+
+[Otoliths GIT](https://github.com/dfo-gulf-science/fgp-datasets/tree/master/otolith_collection)
+- [ ] Otolith Collection of American Plaice in the southern Gulf of St. Lawrence (c1c739ee) - https://dmapps//en/inventory/resources/420/view/
+- [ ] Otolith Collection of Atlantic Cod in the southern Gulf of St. Lawrence (1d41c12a) - https://dmapps//en/inventory/resources/505/view/
+- [ ] Otolith Collection of White Hake in the southern Gulf of St. Lawrence (b3356b27) - https://dmapps//en/inventory/resources/506/view/
+- [ ] Otolith Collection of Winter Flounder in the southern Gulf of St. Lawrence (bb3143f3) - https://dmapps//en/inventory/resources/520/view/
+- [ ] Otolith Collection of Witch Flounder in the Gulf of St. Lawrence (f1c1efaa) - https://dmapps//en/inventory/resources/507/view/
+- [ ] Otolith Collection of Yellowtail Flounder in the southern Gulf of St. Lawrence (98913402 - https://dmapps//en/inventory/resources/418/view/
+- [ ] Vertebrae Collection of skates in the southern Gulf of St. Lawrence (5b506a98) - https://dmapps//en/inventory/resources/1483/view/
+
+
+[Stock Assessment Surveys GIT](https://github.com/dfo-gulf-science/fgp-datasets/tree/master/stock_assessment_surveys)
+- [ ] Gulf Region Sea Scallop Research Vessel Survey Data (de6dc782) - https://dmapps//en/inventory/resources/740/view/
+- [ ] Southern Gulf of St. Lawrence Snow Crab Research Trawl Survey Data (d73d12ed) - https://dmapps//en/inventory/resources/498/view/
+- [ ] Northumberland Strait Multi-species Trawl Survey Data (6d61f7b4) - https://dmapps//en/inventory/resources/728/view/
+- [ ] NAFO Division 4T groundfish research vessel trawl survey (September Survey) dataset (1989de32)- https://dmapps//en/inventory/resources/526/view/
+- [ ] NAFO Division 4T sentinel trawl surveys dataset (3baf60cc)- https://dmapps//en/inventory/resources/713/view/
+
+[Biomass Estimates GIT](https://github.com/dfo-gulf-science/fgp-datasets/tree/master/biomass_estimates)
+- [ ] Biomass estimates of Witch Flounder in the Gulf of St. Lawrence (NAFO 4RST) (ade72f36) - https://dmapps//en/inventory/resources/2468/view/
+- [ ] NAFO 4T Atlantic Herring Biomass Estimates (18f08dc4) - https://dmapps//en/inventory/resources/2467/view/
+- [ ] Snow Crab Abundance and Biomass Estimates (Commercial crab and mature female) in the southern Gulf of St. Lawrence (7b278dfe) - https://dmapps//en/inventory/resources/2470/view/
+- [ ] Spawning Stock Biomass Estimates of Atlantic Cod in the Southern Gulf of St. Lawrence NAFO 4T-4Vn (Nov.-Apr.) - (fe51e3da) - https://dmapps/en/inventory/resources/fe51e3da-0e0b-11ef-90aa-8b219c568296/
+
+Atlantic Salmon
+- [ ] Large and small salmon total returns estimates in the Gulf region (822881ece) - https://dmapps//en/inventory/resources/2474/view/
+- [ ] Atlantic Salmon Smolt Data from the Margaree River, Nova Scotia (a5751ef8) - https://dmapps//en/inventory/resources/2503/view/
+- [ ] Atlantic Salmon Smolt Data from the Restigouche River, New Brunswick (17bda544) - https://dmapps/en/inventory/resources/720/view/
+
+[CAMP GIT](https://github.com/dfo-gulf-science/fgp-datasets/tree/master/c4474517%20(camp))
+- [ ] Community Aquatic Monitoring Program (CAMP) data for the Southern Gulf of St. Lawrence Dataset - https://dmapps//en/inventory/resources/466/view/
+
+Electrofishing
+- [ ] Electrofishing Data from Nova Scotian Rivers (SFA 18A, 18B) - https://dmapps//en/inventory/resources/701/view/
+
+Herring
+- [ ] NAFO fishing division 4T Herring Science Acoustic Survey (7c17f4eb) - https://dmapps//en/inventory/resources/424/view/
+- [ ] NAFO fishing division 4T Herring Spawning Grounds Acoustic Survey (5c79025c) - https://dmapps//en/inventory/resources/2500/view/
+
+[Lobster GIT](https://github.com/dfo-gulf-science/fgp-datasets/tree/master/45ce9e1a%20(scuba))
+- [ ] SCUBA surveys to assess lobster population structure and density in the southern Gulf of St. Lawrence (45ce931a)- https://dmapps//en/inventory/resources/729/view/
+
+[Smallmouth Bass GIT](https://github.com/dfo-gulf-science/fgp-datasets/tree/master/a9728eea%20(eDNA%20SMB))
+- [ ] eDNA-based distribution assessment of Smallmouth Bass (Micropterus dolomieu) in the Miramichi River Watershed from 2019 to 2022 (a9728eea) - https://dmapps//en/inventory/resources/2471/view/
+
+Striped Bass
+- [ ] Striped Bass Spawner Abundance Estimates in the Northwest Miramichi Estuary (c695b1fa) - https://dmapps//en/inventory/resources/2473/view/
