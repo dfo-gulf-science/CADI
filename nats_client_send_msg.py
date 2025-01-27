@@ -18,15 +18,15 @@ def callback(msg):
 ''')
     print(json.dumps(data))
 
-
+#192.168.112.2
 def main():
-    with NATSClient(url="nats://192.168.112.2:4222") as client:
+    with NATSClient(url="nats://localhost:4222") as client:
         # Subscribe
         client.connect()
-        client.subscribe(subject="Scanmar.ResearchExport", callback=callback)
+        # client.subscribe(subject="Scanmar.ResearchExport", callback=callback)
         # wait for messages
-        while True:
-            client.wait(count=1)
+        # while True:
+        #     client.wait(count=1)
 
 
 if __name__ == "__main__":

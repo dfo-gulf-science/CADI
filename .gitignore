@@ -1,3 +1,4 @@
 # PyCharm settings and maps #
 #############################
 .idea/*
+.venv/*
