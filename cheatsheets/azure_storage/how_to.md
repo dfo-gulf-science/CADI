@@ -7,7 +7,7 @@
 
 2. Download **Microsoft Azure Storage Explorer**. This can be downloaded through the [DFO Software Centre](softwarecenter:SoftwareID=ScopeId_A90E3BBE-DB35-4A92-A44E-15F8C7C595B3/Application_61c85969-b0b5-4e54-8eb1-26a88035a8ca) or directly from [the internet](https://azure.microsoft.com/en-us/products/storage/storage-explorer/) (will require elevated system permissions).
 
-3. Open the storage explore and sign in using your DFO Cloud credentials. You know you have successfully signed in when you can see the your list of subscriptions, as shown below.
+3. Open the storage explorer and sign in using your DFO Cloud credentials. You know you have successfully signed in when you can see a list of subscriptions, as shown below.
 
 ![img_1.png](img_1.png) 
 
