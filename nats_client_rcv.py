@@ -25,8 +25,7 @@ def main():
         client.connect()
         client.subscribe(subject="Scanmar.ResearchExport", callback=callback)
         # wait for messages
-        while True:
-            client.wait(count=1)
+        client.wait(count=1)
 
 
 if __name__ == "__main__":

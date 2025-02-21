@@ -27,6 +27,7 @@ def main():
         # wait for messages
         # while True:
         #     client.wait(count=1)
+        client.publish(subject="Scanmar.ResearchExport", payload=b"test-payload")
 
 
 if __name__ == "__main__":
