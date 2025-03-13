@@ -2,11 +2,11 @@
 name: New - Open Data Publication
 about: boilerplate for creating a new open data publication
 title: 'OPEN DATA: [insert name here] (NEW)'
-labels: 'open data'
-assignees: RobichaudA
-projects: CADI Board
+labels: ''
+assignees: davjfish, RobichaudA
 
 ---
+
 Data Custodian:
 - [ ] Complete metadata record in DMApps (bilingual)
 - [ ] Provide image, data dictionary, dataset, and shapfile (for Web Map Services) [either via storage section or confirm info is in GitHub]
