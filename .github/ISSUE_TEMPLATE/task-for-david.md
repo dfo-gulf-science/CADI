@@ -7,4 +7,3 @@ assignees: davjfish
 projects: ["CADI Board"]
 
 ---
-Details here!
