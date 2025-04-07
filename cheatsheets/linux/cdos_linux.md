@@ -47,7 +47,7 @@ Contact Quentin or David. They will create a user for you.
 
 - This is not an ideal tool to use since your environment variables will not get properly loaded and the performance over VPN is horrible.
 - In windows, search for `Remote Desktop Connection`. Open the app.
-- Computer = `glf-science-5.ent.dfo-mpo.ca`
+- Computer = `glf-science-cadi.ent.dfo-mpo.ca`
 - User name = `YOURUSERNAME` (e.g., fishmand)
 
 ![img.png](img.png)
