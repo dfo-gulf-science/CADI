@@ -2,11 +2,11 @@
 name: Update - Open Data Record
 about: boilerplate for updating an existing record that is published to OGP
 title: 'OPEN DATA: [insert name here] (UPDATE)'
-labels: 'open data'
+labels: ''
 assignees: RobichaudA
-projects: CADI Board
 
 ---
+
 Data Custodian (Science staff):
   - [ ] Updates existing metadata,
   - [ ] Provides updated dataset (CSV), data dictoinary, etc.,
