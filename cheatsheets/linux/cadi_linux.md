@@ -128,3 +128,16 @@ sudo ln -s /mnt/MyFavouriteNAS /home/$USER/MyFavouriteNAS
 
 
 ```
+
+### R snipet for dealing with filepaths
+
+```r
+if(.Platform$OS.type == "unix") {
+  # assumes share is mounted by system administrator
+  aqua_res_path <- "/mnt/AquaRes_Common"
+} else {
+  aqua_res_path <- "//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/AquaRes_Common/FishFramSci"
+}
+fish_fram_path <- paste(aqua_res_path,"FishFramSci", sep="/")
+list.files(fish_fram_path)
+```
