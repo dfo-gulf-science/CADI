@@ -108,19 +108,23 @@ To point your profile's R Studio to a different version of R, do the following:
 # ADMIN: Bash cmds to run when creating a new account:
 
 ```bash
+
 USER=lastnamef
 PASS=123456
 sudo useradd -m -p "$(openssl passwd -6 $PASS)" -s /bin/bash $USER
 R_PATH="/opt/R/4.4.3/bin/R"
 # ll $R_PATH
 echo "export RSTUDIO_WHICH_R=$R_PATH" | sudo tee -a /home/$USER/.profile 
+echo "export GIT_SSL_NO_VERIFY=1" | sudo tee -a /home/$USER/.profile 
 mkdir /hot_stuff/$USER
 sudo chown -R $USER:$USER /hot_stuff/$USER
 sudo chmod -R 770 /hot_stuff/$USER
 sudo ln -s /hot_stuff/$USER /home/$USER/my_hot_storage
-sudo ln -s /mnt/AquaRes_Common/ /home/$USER/AquaRes_Common/
+sudo ln -s /mnt/AquaRes_Common /home/$USER/AquaRes_Common
+# Maybe?
+sudo ln -s /mnt/HD2 /home/$USER/HD2
 # example
-sudo ln -s /mnt/MyFavouriteNAS/ /home/$USER/MyFavouriteNAS/
+sudo ln -s /mnt/MyFavouriteNAS /home/$USER/MyFavouriteNAS
 
 
 ```
