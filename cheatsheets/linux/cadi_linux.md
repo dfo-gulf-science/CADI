@@ -1,10 +1,26 @@
-# Cheatsheet for CDOS Ubuntu 22.04 Linux Desktop 
+# Cheatsheet for CADI Ubuntu Linux Desktop 
 
 ## How to get an account?
 
 Contact Quentin or David. They will create a user for you.
 
 ## How do I log in?
+
+
+### 1. Remote Desktop / GUI
+
+- from the DFO Software Center, look for and download `ThinLinc`
+
+![img_2.png](static/img_2.png)
+
+- Open the client and simply enter your credentials:
+
+![img_9.png](static/img_9.png)
+
+- You can use the `F8` key to play around with the display settings, e.g. full screen mode
+- If you close the window without logging out first, your user will still be logged in. In other words, closing the terminal on the Windows side does not log you out. 
+
+
 
 ### 1. Command Line Interface (CLI)
 
@@ -18,77 +34,47 @@ Contact Quentin or David. They will create a user for you.
 
 - Create a new session
 
-![img_8.png](screenshots/img_8.png)
+![img_8.png](static/img_8.png)
 
 - Enter the following information
 
-![img_10.png](screenshots/img_10.png)
+![img_10.png](static/img_10.png)
 
 - The new session will be saved and can be accessed by the sessions sidebar
 - MobaXterm supports X11 forwarding so you can do neat things such as typing in `rstudio` in the command line and the program will open up for you in Windows
 
-### 2. Remote Desktop / GUI
-
-#### ThinLinc (Preferred):
-
-- from the DFO Software Center, look for and download `ThinLinc`
-
-![img_2.png](screenshots/img_2.png)
-
-- Open the client and simply enter your credentials:
-
-![img_3.png](screenshots/img_3.png)
-
-- You can use the `F8` key to play around with the display settings, e.g. full screen mode
-- If you close the window without logging out first, your user will still be logged in. In other words, closing the terminal on the Windows side does not log you out. 
-
-
-#### Windows Remote Desktop Connection Tool (Alternate):
-
-- This is not an ideal tool to use since your environment variables will not get properly loaded and the performance over VPN is horrible.
-- In windows, search for `Remote Desktop Connection`. Open the app.
-- Computer = `glf-science-cadi.ent.dfo-mpo.ca`
-- User name = `YOURUSERNAME` (e.g., fishmand)
-
-![img.png](screenshots/img.png)
 
 ## Who else is currently logged into the linux box?
 
 Open up a terminal (`Ctrl` + `Alt` + `T`) and type the following: `w`
 
-![img_6.png](screenshots/img_6.png)
+![img_6.png](static/img_6.png)
 
 ## How can I copy files from my DFO computer to the linux computer
 
-##### 1) Public share
+Your user profile should come with the DFO Gulf Science network share pre-mounted in your home directory:
 
-- from your DFO computer open up a file explorer window and put in the following address: `\\glf-science-cadi\public`
+![img_12.png](static/img_12.png)
 
-![img_4.png](screenshots/img_4.png)
+You can use this as a way to move files back and forth.
 
-- Move in any files you want to transfer over into this share
-- On the linux side, this folder can be found here `/public`. You can access it using the file explore as well
+It is also possible to access your NAS shares from this environment. 
+Unlike the DFO Windows computers, these can be mapped without any issue. 
 
-![img_5.png](screenshots/img_5.png)
+## Using local storage
 
-- It is a good idea to not leave stuff in this folder since it is a public folder and is accessible by essentially anyone on the DFO network
+Your user profile should come pre-mounted with a folder called `my_hot_storage` in your home directory:
 
-##### 2) Access your linux home directory via windows
- 
-- from your DFO computer open up a file explorer window and put in the following address: `\\glf-science-cadi\MY_USER_NAME`.
-- An authentication screen should pop up and enter your username (with a backslash in front) and password
+![img11.png](static/img11.png)
 
-![img_7.png](screenshots/img_7.png)
-
-**NOTE:** A system administrator will need to get you set up the first time in order to use this feature.
 
 ## Installing a Specific R Version (SUDO privileges required)
 from [here](https://docs.posit.co/resources/install-r/#specify-r-version)
 
 ```bash
-R_VERSION=4.4.3
+R_VERSION=4.2.3
 curl -O https://cdn.rstudio.com/r/ubuntu-2204/pkgs/r-${R_VERSION}_1_amd64.deb
-sudo apt install ./r-${R_VERSION}_1_amd64.deb
+sudo gdebi r-${R_VERSION}_1_amd64.deb
 sudo ln -s /opt/R/${R_VERSION}/bin/R /usr/local/bin/R${R_VERSION}
 sudo ln -s /opt/R/${R_VERSION}/bin/Rscript /usr/local/bin/Rscript${R_VERSION}
 ```
@@ -97,22 +83,61 @@ From a terminal, you can open up a console by typing `R${R_VERSION}`, (e.g. `R4.
 
 ## How to point R Studio to a different R Version
 
-In linux when r studio opens up, it will load the version of R that is pointed to by the environmental variable called 
-`RSTUDIO_WHICH_R` or to the path as specified by `which R`.
+In linux when r studio opens up, it will load the version of R that is pointed to by the environmental variable called `RSTUDIO_WHICH_R` or to the path as specified by `which R`.
 If both of these are empty, R studio will not load.
 
 To point your profile's R Studio to a different version of R, do the following:
 
 - Make sure the version you want to use is actually installed (see above)
 - Open up a terminal (`Ctrl` + `Alt` + `T`) and type the following: `nano ~/.profile`
-- Update the following line: `export RSTUDIO_WHICH_R=/opt/R/x.x.x/bin/R` where `x.x.x` is the version you want to be using
+- Update the following line: `export RSTUDIO_WHICH_R=/opt/R/x.x.x/bin/R` where `x.x.x` is the version you want to be using e.g., `4.4.3`
 - Log out and log back in.
 
 
 **Note to the geeks**: There is a complication when accessing ubuntu desktop via windows remote connection. The .profile file is not sourced / re-sourced.  
+
 
 ## ADMB
 
 - We installed ADMB 13.1 at the system level under the `opt` directory
 - There is a symlink to the admb executable which was placed in `/usr/local/bin` and therefore the `admb` command should be available from anywhere in the terminal. 
 - If in the future we need to install different versions of ADMB, we should reassign the symlink to contain the version, e.g. `admb13.1`
+
+
+
+# ADMIN: Bash cmds to run when creating a new account:
+
+```bash
+
+USER=lastnamef
+PASS=123456
+sudo useradd -m -p "$(openssl passwd -6 $PASS)" -s /bin/bash $USER
+R_PATH="/opt/R/4.4.3/bin/R"
+# ll $R_PATH
+echo "export RSTUDIO_WHICH_R=$R_PATH" | sudo tee -a /home/$USER/.profile 
+echo "export GIT_SSL_NO_VERIFY=1" | sudo tee -a /home/$USER/.profile 
+mkdir /hot_stuff/$USER
+sudo chown -R $USER:$USER /hot_stuff/$USER
+sudo chmod -R 770 /hot_stuff/$USER
+sudo ln -s /hot_stuff/$USER /home/$USER/my_hot_storage
+sudo ln -s /mnt/AquaRes_Common /home/$USER/AquaRes_Common
+# Maybe?
+sudo ln -s /mnt/HD2 /home/$USER/HD2
+# example
+sudo ln -s /mnt/MyFavouriteNAS /home/$USER/MyFavouriteNAS
+
+
+```
+
+### R snipet for dealing with filepaths
+
+```r
+if(.Platform$OS.type == "unix") {
+  # assumes share is mounted by system administrator
+  aqua_res_path <- "/mnt/AquaRes_Common"
+} else {
+  aqua_res_path <- "//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/AquaRes_Common"
+}
+fish_fram_path <- paste(aqua_res_path,"FishFramSci", sep="/")
+list.files(fish_fram_path)
+```
