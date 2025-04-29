@@ -136,7 +136,7 @@ echo "# YOUR HOT STORAGE FOLDER
 ### DISCLAIMER
 
 - **THIS DRIVE IS NOT BACKED UP**
-- Please ensure that all files placed in this location are backed up else where." > /home/$USER/my_hot_storage/README.md
+- Please ensure that all files placed in this location are backed up else where." | sudo tee -a /home/$USER/my_hot_storage/README.md
 
 # Create the smb credential file, if not already present
 touch "$USER_HOME/.smbcredentials"
@@ -160,6 +160,11 @@ AQUA_LOCAL_SHARE=$SHARES_HOME/AquaRes_$USER
 sudo mkdir $AQUA_LOCAL_SHARE
 FSTAB_ENTRY="$AQUA_NETWORK_SHARE $AQUA_LOCAL_SHARE cifs credentials=/home/fishmand/.dfosmbcredentials,uid=$USER,dir_mode=0700 0 0"
 echo $FSTAB_ENTRY | sudo tee -a /etc/fstab
+
+# then finally
+sudo systemctl daemon-reload; sudo mount -a
+
+# add a README to the network share
 echo "### GENERAL:
 
 - This folder has been mounted in order to facilitate the transfer of files between your DFO computer and this workstation. 
@@ -173,10 +178,9 @@ echo "### GENERAL:
 ### DISCLAIMER
 
 - DFO Network shares fall outside of the purview of CADI.
-- Backups and recoveries are handled via IT Service Desk / Shared Service Canada." > $AQUA_LOCAL_SHARE/README.md
+- Backups and recoveries are handled via IT Service Desk / Shared Service Canada." | sudo tee -a $AQUA_LOCAL_SHARE/README.md
 
-# then finally
-sudo systemctl daemon-reload; sudo mount -a 
+ 
 
 # READ ONLY DRIVES as symlinks
 sudo ln -s /mnt/AquaRes_Common /home/$USER/shares/AquaRes_Common_ReadOnly 
