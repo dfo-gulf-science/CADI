@@ -138,6 +138,11 @@ echo "# YOUR HOT STORAGE FOLDER
 - **THIS DRIVE IS NOT BACKED UP**
 - Please ensure that all files placed in this location are backed up else where." | sudo tee -a /home/$USER/my_hot_storage/README.md
 
+# prime the fstab for user entries:
+FSTAB_ENTRY="
+# $USER"
+echo $FSTAB_ENTRY | sudo tee -a /etc/fstab
+
 # Create the smb credential file, if not already present
 touch "$USER_HOME/.smbcredentials"
 echo "user=$USER" | sudo tee -a $USER_HOME/.smbcredentials
