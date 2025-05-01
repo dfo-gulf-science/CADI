@@ -156,14 +156,14 @@ sudo mkdir $SHARES_HOME
 SHARE=my_fav_share
 SHARE_DIR=$SHARES_HOME/$SHARE
 sudo mkdir $SHARE_DIR
-FSTAB_ENTRY="//glfscidm002/$SHARE $SHARE_DIR cifs credentials=$USER_HOME/.smbcredentials,uid=$USER,dir_mode=0700 0 0"
+FSTAB_ENTRY="//glfscidm002/$SHARE $SHARE_DIR cifs credentials=$USER_HOME/.smbcredentials,_netdev,x-systemd.after=network-online.target,uid=$USER 0 0"
 echo $FSTAB_ENTRY | sudo tee -a /etc/fstab
 
 # Add a user writeable folder from the aquarescommon share
 AQUA_NETWORK_SHARE="//ENT.dfo-mpo.ca/dfo-mpo/GROUP/GLF/Regional_Shares/AquaRes_Common/CadiBox/$USER"
 AQUA_LOCAL_SHARE=$SHARES_HOME/AquaRes_$USER
 sudo mkdir $AQUA_LOCAL_SHARE
-FSTAB_ENTRY="$AQUA_NETWORK_SHARE $AQUA_LOCAL_SHARE cifs credentials=/home/fishmand/.dfosmbcredentials,uid=$USER,dir_mode=0700 0 0"
+FSTAB_ENTRY="$AQUA_NETWORK_SHARE $AQUA_LOCAL_SHARE cifs credentials=/home/fishmand/.dfosmbcredentials,_netdev,x-systemd.after=network-online.target,uid=$USER 0 0"
 echo $FSTAB_ENTRY | sudo tee -a /etc/fstab
 
 # then finally
