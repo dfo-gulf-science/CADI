@@ -49,8 +49,9 @@ both the operational needs of the organization and the legitimate psychosocial c
 
 We request the following:
 - Suspension of the rollout of unassigned workspaces until a thorough employee consultation process is completed.
-- Consideration of hybrid or flexible seating models that retain a degree of workspace personalization - **especially for employee who do not have remote-work agreements.**
-- Provide employees with literature that substantiates these major changes to our work environment.  
+- Consideration of hybrid or flexible seating models that retain a degree of workspace personalization, 
+especially in the context of **employee who do not have remote-work agreements** and for **teams that work actively together**.
+- Provide employees with literature and documentation that substantiates these major changes that are being imposed on our work environment.  
 
 
 ### Signatures:
