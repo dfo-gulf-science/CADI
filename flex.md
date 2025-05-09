@@ -22,7 +22,7 @@ Specifically, our concerns include:
 
 5. _Equity and Accessibility Issues:_ Unassigned workspaces might have more difficulty accommodating employees with specific ergonomic needs or disabilities, potentially violating inclusion principles.
 
-We urge leadership to reconsider the implementation of permanently unassigned seating and to explore alternative solutions that respect both the operational needs of the organization and the legitimate psycho-social concerns of its workforce. While it is known that this model is being widely deployed across the Government, adequate justification and rationale for this major change has not been put forth. We are requesting that more consideration be given to alternate models for seating and desk assignment which afford more flexibilty and personalization.
+We urge leadership to reconsider the implementation of permanently unassigned seating and to explore alternative solutions that respect both the operational needs of the organization and the legitimate psycho-social concerns of its workforce. While it is known that this model is being widely deployed across the Government, adequate justification and rationale for imposition of this major change has not been put forth. We are requesting that more consideration be given to alternate models for seating and desk assignment which afford more flexibilty and personalization.
 
 
 
