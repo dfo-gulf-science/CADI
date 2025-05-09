@@ -12,9 +12,9 @@ While we understand the need for space-optimization and flexibility in the new b
 
 Specifically, our concerns include:
 
-1. _Erosion of Team Cohesion:_ physically fragmenting teams can impair their ability to communicate and collaborate effectively.
+1. _Reduced Productivity:_ Constantly switching desks can lead to an increase in distractions and lost time associated with the configuration and customization of workspaces.  
 
-2. _Reduced Productivity:_ Constantly switching desks can lead to an increase in distractions and lost time associated with the configuration and customization of workspaces. Additionally, the erosion of team cohesion, as noted above can have a negative impact on a team performance.     
+2. _Erosion of Team Cohesion:_ Physically fragmenting teams can impair their ability to communicate and collaborate effectively and thus diminshing their performance.
 
 3. _Reduced moral:_ The removal of assigned desks disrupts daily routines, diminishes employees’ sense of belonging and stability, and can negatively affect morale. 
 
