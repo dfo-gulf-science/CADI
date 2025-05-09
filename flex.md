@@ -20,7 +20,7 @@ Specifically, our concerns include:
 1. _Erosion of Team Cohesion:_ 
 Unlike the unrealistic and improbable assertion that unassigned seating will 
 encourage new spontaneous collaborations between employees, physically fragmenting _actual_ teams
-will impair their ability to collaborate and exchange information.
+will impair their ability to communicate and collaborate.
 
 
 2. _Reduced Productivity:_ 
